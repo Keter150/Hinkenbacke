@@ -1,8 +1,3 @@
-2025/08/29-19:11:08.266 25f0 Recovering log #32
-2025/08/29-19:11:08.272 25f0 Delete type=0 #32
-2025/08/29-19:11:08.272 25f0 Delete type=3 #31
-2025/08/29-19:12:21.877 d2c Level-0 table #36: started
-2025/08/29-19:12:21.877 d2c Level-0 table #36: 0 bytes OK
-2025/08/29-19:12:21.879 d2c Delete type=0 #34
-2025/08/29-19:12:21.887 d2c Manual compaction at level-0 from '!folders!SoBzffbgJunuqx7D' @ 72057594037927935 : 1 .. '!items!zwcxLONh0Rwe4ZyD' @ 0 : 0; will stop at (end)
-2025/08/29-19:12:21.900 d2c Manual compaction at level-1 from '!folders!SoBzffbgJunuqx7D' @ 72057594037927935 : 1 .. '!items!zwcxLONh0Rwe4ZyD' @ 0 : 0; will stop at (end)
+2025/08/31-17:03:36.994112 7705c0802b38 Recovering log #50
+2025/08/31-17:03:36.998335 7705c0802b38 Delete type=0 #50
+2025/08/31-17:03:36.998808 7705c0802b38 Delete type=3 #48
