@@ -1,93 +1,168 @@
 {
-  "id": "daggerheart-or-the-void",
-  "title": "Daggerheart | The Void",
-  "version": "1.0.2",
-"manifest": "https://github.com/Keter150/Hinkenbacke/releases/latest/download/module.json",
-"download": "https://github.com/Keter150/Hinkenbacke/releases/download/1.0.2/module.zip",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
-  "description": "Ein Modul, mit dem Void Contend für Foundryborne",
-  "authors": [
-    {
-      "name": "Adrian",
-      "flags": {}
-    }
-  ],
-  "flags": {
-    "canUpload": true
-  },
-  "packs": [
-    {
-      "name": "Classes",
-      "label": "Classes",
-      "path": "packs/Classes",
-      "type": "Item",
-      "system": "daggerheart",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+    "id": "daggerheart-or-the-void",
+    "title": "Daggerheart | Kinder des Umbra + Void",
+    "version": "1.0.3",
+    "manifest": "https://github.com/Keter150/Hinkenbacke/releases/latest/download/module.json",
+    "download": "https://github.com/Keter150/Hinkenbacke/releases/download/1.0.3/module.zip",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
     },
-    {
-      "name": "Subclasses",
-      "label": "Subclasses",
-      "path": "packs/Subclasses",
-      "type": "Item",
-      "system": "daggerheart",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+    "description": "<p>Ein Modul, mit dem Void Contend für Foundryborne</p>",
+    "authors": [
+        {
+            "name": "Adrian, Heavy & Nico",
+            "flags": {}
+        }
+    ],
+    "flags": {
+        "canUpload": true
     },
-    {
-      "name": "Communities",
-      "label": "Communities",
-      "path": "packs/Communities",
-      "type": "Item",
-      "system": "daggerheart",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "Domains",
-      "label": "Domains",
-      "path": "packs/Domains",
-      "type": "Item",
-      "system": "daggerheart",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "Ancestry",
-      "label": "Ancestry",
-      "path": "packs/Ancestry",
-      "type": "Item",
-      "system": "daggerheart",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "The Void Content",
-      "sorting": "a",
-      "color": "#1e194c",
-      "packs": [
-        "Ancestry",
-        "Classes",
-        "Communities",
-        "Domains",
-        "Subclasses"
-      ],
-      "folders": []
-    }
-  ]
+    "packs": [
+        {
+            "name": "Classes",
+            "label": "Classes",
+            "path": "packs/Classes",
+            "type": "Item",
+            "system": "daggerheart",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "Subclasses",
+            "label": "Subclasses",
+            "path": "packs/Subclasses",
+            "type": "Item",
+            "system": "daggerheart",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "Communities",
+            "label": "Communities",
+            "path": "packs/Communities",
+            "type": "Item",
+            "system": "daggerheart",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "Domains",
+            "label": "Domains",
+            "path": "packs/Domains",
+            "type": "Item",
+            "system": "daggerheart",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "Ancestry",
+            "label": "Ancestry",
+            "path": "packs/Ancestry",
+            "type": "Item",
+            "system": "daggerheart",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "Adversaries",
+            "label": "Adversaries",
+            "path": "packs/Adversaries",
+            "type": "Actor",
+            "system": "daggerheart",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "Weapons",
+            "label": "Weapons",
+            "path": "packs/Weapons",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "daggerheart"
+        },
+        {
+            "name": "Armors",
+            "label": "Armors",
+            "path": "packs/Armors",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "daggerheart"
+        },
+        {
+            "name": "Consumables",
+            "label": "Consumables",
+            "path": "packs/Consumables",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "daggerheart"
+        },
+        {
+            "name": "Loot",
+            "label": "Loot",
+            "path": "packs/Loot",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "daggerheart"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Kinder des Umbra + Void",
+            "sorting": "a",
+            "color": "#1e194c",
+            "packs": [
+                "Adversaries"
+            ],
+            "folders": [
+                {
+                    "name": "Character Options",
+                    "sorting": "m",
+                    "color": "#000000",
+                    "packs": [
+                        "Ancestry",
+                        "Communities",
+                        "Classes",
+                        "Subclasses",
+                        "Domains"
+                    ]
+                },
+                {
+                    "name": "Items",
+                    "sorting": "m",
+                    "color": "#000000",
+                    "packs": [
+                        "Armors",
+                        "Weapons",
+                        "Consumables",
+                        "Loot"
+                    ]
+                }
+            ]
+        }
+    ]
 }
